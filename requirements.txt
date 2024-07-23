@@ -1,0 +1,14 @@
+ipython
+jupyterlab
+kedro
+kedro-telemetry
+kedro-viz
+notebook
+pytest
+pytest-cov
+pytest-mock
+ruff
+scikit-learn
+seaborn
+setuptools
+numpy<2.0
