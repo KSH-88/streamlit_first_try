@@ -5,13 +5,13 @@ import matplotlib.pyplot as plt
 
 def chart(df, column1, column2):
     
-    # st.scatter_chart(df, x=column1, y=column2)
+    st.scatter_chart(df, x=column1, y=column2)
 
-    plt.scatter(df[column1], df[column2])
-    plt.xlabel(column1)
-    plt.ylabel(column2)
-    plt.title(f'Scatter plot of {column1} vs {column2}')
-    plt.show()
+    # fig = plt.scatter(df[column1], df[column2])
+    # plt.xlabel(column1)
+    # plt.ylabel(column2)
+    # plt.title(f'Scatter plot of {column1} vs {column2}')
+    # st.pyplot(fig)
 
 
 st.header('Visualize Data!')
