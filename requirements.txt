@@ -1,8 +1,5 @@
 ipython
 jupyterlab
-kedro
-kedro-telemetry
-kedro-viz
 notebook
 pytest
 pytest-cov
@@ -11,4 +8,12 @@ ruff
 scikit-learn
 seaborn
 setuptools
-numpy<2.0
+numpy
+pandas
+streamlit
+requests
+matplotlib
+datetime
+plotly
+pickle
+random
